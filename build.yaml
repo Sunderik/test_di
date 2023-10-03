@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      built_value_generator:built_value:
+        enabled: true
+        generate_for:
+          - "lib/states/**.dart"
+      injectable_generator:injectable_builder:
+        enabled: true
+#        generate_for:
+#            - "lib/from_di/**.dart"
